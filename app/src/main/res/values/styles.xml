@@ -1,0 +1,27 @@
+<resources>
+
+    <style name="AppTheme" parent="Base.AppTheme">
+    </style>
+
+    <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue_dark</item>
+        <item name="colorAccent">@color/red</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="OverFlowMenuTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <style name="CheckBox" parent="@android:style/Widget.Material.CompoundButton.CheckBox">
+        <item name="android:colorControlActivated">#303F9F</item>
+        <item name="android:colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+
+</resources>
